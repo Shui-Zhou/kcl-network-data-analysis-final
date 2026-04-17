@@ -547,7 +547,8 @@ def build_report() -> Path:
         "proximity to an infected node is the strongest predictor of risk, followed by the intensity "
         "of direct interaction, with overall network influence as a secondary factor. I acknowledge "
         "these weights are heuristic: no sensitivity analysis or cross-validation was performed, and "
-        "alternative weightings could produce materially different rankings."
+        "alternative weightings could produce materially different rankings. The resulting ranking "
+        "is therefore a pragmatic triage list, not an estimated causal infection probability."
     )
     pdf.body(
         "Comparing one-infected vs two-infected scenarios reveals how additional infection sources "
@@ -684,11 +685,12 @@ def build_report() -> Path:
     )
     pdf.body(
         "To find the optimal 1 km square study area, I overlaid a 1 km grid on all accident "
-        "locations and counted accidents per cell. The densest cell, at BNG origin (430000, 433000) "
-        "with 851 accidents, is located near Leeds city centre, approximately 916 m from the overall "
-        "accident centroid. This area substantially exceeds the minimum requirement of 300 accidents "
-        "and provides a rich dataset for spatial analysis. The cell corresponds to an area south of "
-        "the River Aire including major routes through Holbeck and the city centre."
+        "locations and counted accidents per cell. The densest cell spans the BNG bbox "
+        "430000-431000 E, 433000-434000 N (approximately 53.7924-53.8014 N, -1.5461 to -1.5308 W) "
+        "with 851 accidents, placing it over Leeds city centre just north of the River Aire and "
+        "around Leeds City railway station, roughly 916 m from the overall accident centroid. "
+        "This substantially exceeds the minimum requirement of 300 accidents and provides a "
+        "rich dataset for spatial analysis."
     )
     pdf.body(
         "The road network was downloaded via osmnx 2.x using graph_from_bbox with network_type='drive' "
@@ -735,13 +737,17 @@ def build_report() -> Path:
     )
     pdf.body(
         "The network is non-planar (networkx is_planar() returns False on the simplified undirected "
-        "graph). While road networks are 'almost planar' because most intersections are at-grade, "
-        "non-planarity in urban areas typically arises from grade-separated crossings such as flyovers "
-        "and underpasses. Barthelemy (2011) notes that transportation networks are 'approximately planar' "
-        "but grade separations introduce K3,3 or K5 minors. My code does not identify the specific "
-        "edges causing non-planarity, but the selected area near Leeds city centre is known to contain "
-        "grade-separated junctions. The practical implication is that planarity-dependent algorithms "
-        "cannot be directly applied to real urban road networks without addressing these crossings."
+        "graph). Within this bbox OSM records contain concrete grade-separated crossings: "
+        "rail-over-road around the Leeds station throat (where the station's western and eastern "
+        "approaches pass over streets such as Neville Street and Swinegate) and road bridges "
+        "spanning the River Aire at the southern edge of the cell. At each such crossing two edges "
+        "physically cross without sharing a node, violating the condition that edges may only meet "
+        "at endpoints and forcing the graph to contain a K3,3 or K5 minor (Barthelemy, 2011, "
+        "characterises transport networks as 'approximately planar' for this reason - they fail "
+        "strict planarity whenever grade separation exists). My code returns the boolean result "
+        "rather than enumerating the offending edge pairs; the practical implication is that "
+        "planarity-dependent algorithms cannot be applied to real urban road networks without "
+        "first resolving these crossings."
     )
 
     pdf.section_title("Intersection Type Distribution", 3)
@@ -823,7 +829,11 @@ def build_report() -> Path:
         "occur near intersections. This is consistent with road safety literature: intersections create "
         "conflict points where vehicles, pedestrians, and cyclists interact, increasing accident risk "
         "through turning movements, signal violations, and pedestrian crossings. The rapid drop-off "
-        "beyond 70 m suggests that mid-block accidents are comparatively rare in this urban area."
+        "beyond 70 m suggests that mid-block accidents are comparatively rare in this urban area. "
+        "Normalising by host edge length, the median accident occurs at about 16% of the segment "
+        "length from the nearest intersection (mean 20%), so a typical accident sits in the first "
+        "sixth of a road segment - close to an intersection not only in absolute metres but also "
+        "as a fraction of road length."
     )
 
     pdf.check_space(45)

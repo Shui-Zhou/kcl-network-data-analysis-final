@@ -1,0 +1,10 @@
+networkx>=3.0
+osmnx>=2.0
+spaghetti>=1.7
+libpysal>=4.7
+esda>=2.5
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+pyproj>=3.5
+fpdf2>=2.7
