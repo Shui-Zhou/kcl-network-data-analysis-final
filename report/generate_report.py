@@ -10,7 +10,7 @@ Usage:
     python3 report/generate_report.py
 
 Output:
-    report/NDA_Coursework_Report.pdf
+    report/K25120780_7CUSMNDA_Coursework.pdf
 """
 
 from __future__ import annotations
@@ -999,7 +999,7 @@ def build_report() -> Path:
         pdf.ln(2.5)
 
     # ── Save ─────────────────────────────────────────────────
-    output_path = REPORT_DIR / "NDA_Coursework_Report.pdf"
+    output_path = REPORT_DIR / "K25120780_7CUSMNDA_Coursework.pdf"
     pdf.output(str(output_path))
     return output_path
 
