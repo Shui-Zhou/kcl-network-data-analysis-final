@@ -1,0 +1,4 @@
+dataset,infected_a,infected_b,component_size,component_share,shortest_path_between_infected,mean_infected_degree,mean_infected_weighted_degree,mean_infected_local_clustering,verdict
+BOT_REQUESTS,Hanira,Scott5114,519,0.9402173913043478,3,3.0,3.0,1.0,plausible_non_propagation
+PROPERTY_PROPOSAL,Ipoellet,ThelmOSO,3051,0.9977109221713538,2,7.5,9.0,0.967948717948718,mixed_risk
+REQUEST_FOR_DELETION,Defender,Elyparker,9870,0.9934574735782586,3,2.0,4.5,0.5,plausible_non_propagation

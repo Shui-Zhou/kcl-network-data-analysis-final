@@ -1,0 +1,12 @@
+{
+  "selected_datasets": {
+    "large": "REQUEST_FOR_DELETION.csv",
+    "medium": "PROPERTY_PROPOSAL.csv",
+    "small": "BOT_REQUESTS.csv"
+  },
+  "generated_files": {
+    "profiles_csv": "Analysis/outputs/part1_taskA/tables/dataset_profiles.csv",
+    "summary_csv": "Analysis/outputs/part1_taskA/tables/graph_summary.csv",
+    "figure_dir": "Analysis/outputs/part1_taskA/figures"
+  }
+}

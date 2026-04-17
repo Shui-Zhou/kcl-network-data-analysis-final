@@ -1,0 +1,7 @@
+dataset,infected_node,degree,weighted_degree,mean_incident_weight,local_clustering,distance_to_other_infected,reachable_within_two_steps_from_any_infected,component_size,component_share
+BOT_REQUESTS,Hanira,2,2,1.0,1.0,3,92,519,0.9402173913043478
+BOT_REQUESTS,Scott5114,4,4,1.0,1.0,3,92,519,0.9402173913043478
+PROPERTY_PROPOSAL,Ipoellet,13,16,1.2307692307692308,0.9358974358974359,2,2474,3051,0.9977109221713538
+PROPERTY_PROPOSAL,ThelmOSO,2,2,1.0,1.0,2,2474,3051,0.9977109221713538
+REQUEST_FOR_DELETION,Defender,1,6,6.0,0.0,3,8436,9870,0.9934574735782586
+REQUEST_FOR_DELETION,Elyparker,3,3,1.0,1.0,3,8436,9870,0.9934574735782586

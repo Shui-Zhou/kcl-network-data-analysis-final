@@ -1,0 +1,10 @@
+{
+  "selection_seeds": {
+    "BOT_REQUESTS": 1201,
+    "PROPERTY_PROPOSAL": 1202,
+    "REQUEST_FOR_DELETION": 1203
+  },
+  "simulation_runs": 250,
+  "simulation_steps": 6,
+  "input_graph_dir": "Analysis/outputs/part1_taskA/graphs"
+}

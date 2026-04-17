@@ -1,0 +1,15 @@
+{
+  "random_seeds": [
+    42,
+    314,
+    2718
+  ],
+  "graph_input_dir": "Analysis/outputs/part1_taskA/graphs",
+  "outputs": {
+    "observed_metrics": "Analysis/outputs/part1_taskB/tables/observed_metrics.csv",
+    "random_baseline_means": "Analysis/outputs/part1_taskB/tables/random_baseline_means.csv",
+    "taskB_comparison_summary": "Analysis/outputs/part1_taskB/tables/taskB_comparison_summary.csv",
+    "top_centrality_nodes": "Analysis/outputs/part1_taskB/tables/top_centrality_nodes.csv",
+    "component_sizes_top10": "Analysis/outputs/part1_taskB/tables/component_sizes_top10.csv"
+  }
+}

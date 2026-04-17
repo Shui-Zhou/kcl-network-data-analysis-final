@@ -1,0 +1,134 @@
+{
+  "seeds": [
+    {
+      "rank": 1,
+      "node_id": 27563083,
+      "label": "Seed_1",
+      "x": 419097.88921985484,
+      "y": 446398.08177193603,
+      "street_count": 4,
+      "distance_to_hotspot_m": 17215.360688590034,
+      "quadrant": "north_west"
+    },
+    {
+      "rank": 2,
+      "node_id": 764416147,
+      "label": "Seed_2",
+      "x": 443320.3147786746,
+      "y": 445958.3088773795,
+      "street_count": 5,
+      "distance_to_hotspot_m": 17876.51898744541,
+      "quadrant": "north_east"
+    },
+    {
+      "rank": 3,
+      "node_id": 448707924,
+      "label": "Seed_3",
+      "x": 420282.2643684446,
+      "y": 433694.1563311436,
+      "street_count": 4,
+      "distance_to_hotspot_m": 10219.580134099419,
+      "quadrant": "south_west"
+    },
+    {
+      "rank": 4,
+      "node_id": 1329998313,
+      "label": "Seed_4",
+      "x": 444437.440139682,
+      "y": 432697.38103723095,
+      "street_count": 4,
+      "distance_to_hotspot_m": 13960.531323936591,
+      "quadrant": "south_east"
+    }
+  ],
+  "routes": [
+    {
+      "seed_label": "Seed_1",
+      "seed_node_id": 27563083,
+      "status": "success",
+      "route_length_m": 44260.13734219182,
+      "target_gap_m": 2065.137342191818,
+      "loop_count": 2,
+      "cell_nodes": 2384,
+      "cell_edges": 2758
+    },
+    {
+      "seed_label": "Seed_2",
+      "seed_node_id": 764416147,
+      "status": "success",
+      "route_length_m": 44215.54066981915,
+      "target_gap_m": 2020.540669819151,
+      "loop_count": 2,
+      "cell_nodes": 2096,
+      "cell_edges": 2389
+    },
+    {
+      "seed_label": "Seed_3",
+      "seed_node_id": 448707924,
+      "status": "success",
+      "route_length_m": 43984.55738388386,
+      "target_gap_m": 1789.557383883861,
+      "loop_count": 2,
+      "cell_nodes": 20563,
+      "cell_edges": 24773
+    },
+    {
+      "seed_label": "Seed_4",
+      "seed_node_id": 1329998313,
+      "status": "approximate",
+      "route_length_m": 46508.25351525331,
+      "target_gap_m": 4313.253515253309,
+      "loop_count": 2,
+      "cell_nodes": 6657,
+      "cell_edges": 7735
+    }
+  ],
+  "refined_routes": [
+    {
+      "seed_label": "Seed_1",
+      "seed_node_id": 27563083,
+      "status": "success",
+      "route_length_m": 42972.20535931676,
+      "target_gap_m": 777.2053593167584,
+      "loop_count": 2,
+      "cell_nodes": 2427,
+      "cell_edges": 2815,
+      "rerun_option": "allow_slight_boundary_crossing"
+    },
+    {
+      "seed_label": "Seed_2",
+      "seed_node_id": 764416147,
+      "status": "success",
+      "route_length_m": 44176.03671891523,
+      "target_gap_m": 1981.0367189152312,
+      "loop_count": 2,
+      "cell_nodes": 2135,
+      "cell_edges": 2438,
+      "rerun_option": "allow_slight_boundary_crossing"
+    },
+    {
+      "seed_label": "Seed_3",
+      "seed_node_id": 448707924,
+      "status": "success",
+      "route_length_m": 42916.3337201685,
+      "target_gap_m": 721.333720168499,
+      "loop_count": 1,
+      "cell_nodes": 20652,
+      "cell_edges": 24898,
+      "rerun_option": "allow_slight_boundary_crossing"
+    },
+    {
+      "seed_label": "Seed_4",
+      "seed_node_id": 1329998313,
+      "status": "approximate",
+      "route_length_m": 39331.46560011408,
+      "target_gap_m": -2863.534399885917,
+      "loop_count": 1,
+      "cell_nodes": 6721,
+      "cell_edges": 7820,
+      "rerun_option": "allow_slight_boundary_crossing"
+    }
+  ],
+  "city_graph_nodes": 31600,
+  "city_graph_edges": 37655
+}

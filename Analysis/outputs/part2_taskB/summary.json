@@ -1,0 +1,27 @@
+{
+  "accident_summary": {
+    "accidents_in_square": 851,
+    "years_covered": "2009-2016",
+    "unique_edges_with_accidents": 173,
+    "max_accidents_on_single_edge": 45,
+    "mean_accidents_per_edge": 1.9080717488789238
+  },
+  "network_k_summary": {
+    "observed_exceeds_upper_steps": 11,
+    "max_gap_over_upper": 5855.143005900602
+  },
+  "moran_summary": {
+    "moran_i": 0.3006699284987632,
+    "expected_i": -0.0022471910112359553,
+    "z_score": 10.480053636143621,
+    "p_value": 1.0668322144696879e-25,
+    "permutation_p_value": 0.002
+  },
+  "intersection_distance_summary": {
+    "mean_distance_m": 24.936097134620283,
+    "median_distance_m": 11.884077174641675,
+    "p90_distance_m": 63.33132700960715,
+    "mean_edge_fraction": 0.19648335972146017,
+    "median_edge_fraction": 0.16329798753056732
+  }
+}

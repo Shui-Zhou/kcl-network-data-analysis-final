@@ -1,0 +1,55 @@
+{
+  "selected_square": {
+    "cell_x": 430000,
+    "cell_y": 433000,
+    "x_min": 430000,
+    "x_max": 431000,
+    "y_min": 433000,
+    "y_max": 434000,
+    "center_x": 430500.0,
+    "center_y": 433500.0,
+    "accident_count": 851,
+    "distance_to_centroid_m": 915.655066977688
+  },
+  "accident_year_total_rows": 21435,
+  "accident_years": [
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016
+  ],
+  "figures": {
+    "accident_grid": "figures/accident_density_grid.png",
+    "road_network": "figures/road_network_selected_area.png"
+  },
+  "road_network_stats": {
+    "n": 266,
+    "m": 446,
+    "k_avg": 3.3533834586466167,
+    "edge_length_total": 28807.620057385706,
+    "edge_length_avg": 64.59107636185136,
+    "streets_per_node_avg": 2.8909774436090228,
+    "streets_per_node_counts": "{0: 0, 1: 31, 2: 14, 3: 176, 4: 43, 5: 2}",
+    "streets_per_node_proportions": "{0: 0.0, 1: 0.11654135338345864, 2: 0.05263157894736842, 3: 0.6616541353383458, 4: 0.16165413533834586, 5: 0.007518796992481203}",
+    "intersection_count": 235,
+    "street_length_total": 23394.434090557796,
+    "street_segment_count": 358,
+    "street_length_avg": 65.34758125854133,
+    "circuity_avg": 1.0396725737410548,
+    "self_loop_proportion": 0.0,
+    "node_density_km": 266.0,
+    "intersection_density_km": 235.0,
+    "edge_density_km": 28807.620057385706,
+    "street_density_km": 23394.434090557796,
+    "spatial_diameter_m": 2714.6458657611756,
+    "planar": false,
+    "nodes_total": 266,
+    "edges_total": 446,
+    "largest_component_nodes": 266,
+    "largest_component_edges": 356
+  }
+}

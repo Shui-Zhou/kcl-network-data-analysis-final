@@ -1,0 +1,4 @@
+dataset,size_label,rows,unique_users,unique_pages,unique_threads,unique_page_thread_groups,max_users_in_group,median_users_in_group
+REQUEST_FOR_DELETION,large,648637,9935,3303,316267,318883,21,2.0
+PROPERTY_PROPOSAL,medium,52160,3058,8649,10005,10018,42,5.0
+BOT_REQUESTS,small,2981,552,108,1113,1126,18,2.0

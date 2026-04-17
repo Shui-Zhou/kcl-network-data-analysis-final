@@ -1,0 +1,41 @@
+{
+  "graph_order": [
+    "REQUEST_FOR_DELETION",
+    "PROPERTY_PROPOSAL",
+    "BOT_REQUESTS"
+  ],
+  "scenario_seeds": {
+    "REQUEST_FOR_DELETION": 111,
+    "PROPERTY_PROPOSAL": 222,
+    "BOT_REQUESTS": 333
+  },
+  "sir_params": {
+    "REQUEST_FOR_DELETION": {
+      "beta": 0.28,
+      "gamma": 0.12,
+      "steps": 8
+    },
+    "PROPERTY_PROPOSAL": {
+      "beta": 0.26,
+      "gamma": 0.11,
+      "steps": 8
+    },
+    "BOT_REQUESTS": {
+      "beta": 0.24,
+      "gamma": 0.13,
+      "steps": 8
+    }
+  },
+  "outputs": {
+    "scenario_summary": "tables/scenario_summary.csv",
+    "priority_rankings": "tables/priority_rankings.csv",
+    "sir_timelines": "tables/sir_timelines.csv",
+    "summary_md": "reports/summary.md"
+  },
+  "figures": {
+    "REQUEST_FOR_DELETION_risk_overlay": "figures/request_for_deletion_risk_overlay.png",
+    "PROPERTY_PROPOSAL_risk_overlay": "figures/property_proposal_risk_overlay.png",
+    "BOT_REQUESTS_risk_overlay": "figures/bot_requests_risk_overlay.png",
+    "sir_timeline": "figures/sir_timeline.png"
+  }
+}

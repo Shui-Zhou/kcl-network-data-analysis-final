@@ -1,0 +1,61 @@
+dataset,metric,rank,username,value
+BOT_REQUESTS,degree_centrality,1,Pasleim,0.4101633393829401
+BOT_REQUESTS,degree_centrality,2,Jura1,0.35934664246823955
+BOT_REQUESTS,degree_centrality,3,Matěj Suchánek,0.27586206896551724
+BOT_REQUESTS,degree_centrality,4,ValterVB,0.1778584392014519
+BOT_REQUESTS,degree_centrality,5,Pigsonthewing,0.1705989110707804
+BOT_REQUESTS,degree_centrality,6,Multichill,0.14882032667876588
+BOT_REQUESTS,degree_centrality,7,Edoderoo,0.14882032667876588
+BOT_REQUESTS,degree_centrality,8,Ricordisamoa,0.1234119782214156
+BOT_REQUESTS,degree_centrality,9,Succu,0.1234119782214156
+BOT_REQUESTS,degree_centrality,10,Sjoerddebruin,0.11433756805807622
+BOT_REQUESTS,betweenness_centrality,1,Pasleim,0.2582434709305614
+BOT_REQUESTS,betweenness_centrality,2,Jura1,0.21445667333630616
+BOT_REQUESTS,betweenness_centrality,3,Matěj Suchánek,0.1419699443304998
+BOT_REQUESTS,betweenness_centrality,4,ValterVB,0.057661612435537246
+BOT_REQUESTS,betweenness_centrality,5,Edoderoo,0.051003418490151824
+BOT_REQUESTS,betweenness_centrality,6,Pigsonthewing,0.03991964243237554
+BOT_REQUESTS,betweenness_centrality,7,Multichill,0.03483264311352216
+BOT_REQUESTS,betweenness_centrality,8,Ricordisamoa,0.03259704057482675
+BOT_REQUESTS,betweenness_centrality,9,Vojtěch Dostál,0.031992520911836464
+BOT_REQUESTS,betweenness_centrality,10,Edgars2007,0.03190687040276617
+PROPERTY_PROPOSAL,degree_centrality,1,ArthurPSmith,0.45763820739286887
+PROPERTY_PROPOSAL,degree_centrality,2,ديفيد عادل وهبة خليل 2,0.4281975793261367
+PROPERTY_PROPOSAL,degree_centrality,3,Pigsonthewing,0.4095518482172064
+PROPERTY_PROPOSAL,degree_centrality,4,Jura1,0.38730781812234216
+PROPERTY_PROPOSAL,degree_centrality,5,ChristianKl,0.36408243375858684
+PROPERTY_PROPOSAL,degree_centrality,6,Pintoch,0.3598298985933922
+PROPERTY_PROPOSAL,degree_centrality,7,Thierry Caro,0.2826300294406281
+PROPERTY_PROPOSAL,degree_centrality,8,Pamputt,0.2793588485443245
+PROPERTY_PROPOSAL,degree_centrality,9,YULdigitalpreservation,0.22800130847235853
+PROPERTY_PROPOSAL,degree_centrality,10,Yair rand,0.19790644422636572
+PROPERTY_PROPOSAL,betweenness_centrality,1,ArthurPSmith,0.11304261803672883
+PROPERTY_PROPOSAL,betweenness_centrality,2,Pigsonthewing,0.09483701990052977
+PROPERTY_PROPOSAL,betweenness_centrality,3,ديفيد عادل وهبة خليل 2,0.09356358648412362
+PROPERTY_PROPOSAL,betweenness_centrality,4,Jura1,0.08549409606010201
+PROPERTY_PROPOSAL,betweenness_centrality,5,ChristianKl,0.07934260216054875
+PROPERTY_PROPOSAL,betweenness_centrality,6,Pamputt,0.07075317629134754
+PROPERTY_PROPOSAL,betweenness_centrality,7,Pintoch,0.06864694765449934
+PROPERTY_PROPOSAL,betweenness_centrality,8,Thierry Caro,0.05073596021337769
+PROPERTY_PROPOSAL,betweenness_centrality,9,UWashPrincipalCataloger,0.025509066807250326
+PROPERTY_PROPOSAL,betweenness_centrality,10,Yair rand,0.024464021127866956
+REQUEST_FOR_DELETION,degree_centrality,1,DeltaBot,0.4972820616066036
+REQUEST_FOR_DELETION,degree_centrality,2,BeneBot*,0.43839339641634795
+REQUEST_FOR_DELETION,degree_centrality,3,Cycn,0.12160257700825448
+REQUEST_FOR_DELETION,degree_centrality,4,MisterSynergy,0.07167304207771291
+REQUEST_FOR_DELETION,degree_centrality,5,Lymantria,0.07116972015300987
+REQUEST_FOR_DELETION,degree_centrality,6,Ymblanter,0.06442520636198913
+REQUEST_FOR_DELETION,degree_centrality,7,분당선M,0.06361989128246427
+REQUEST_FOR_DELETION,degree_centrality,8,Quakewoody,0.057378699416146574
+REQUEST_FOR_DELETION,degree_centrality,9,Stryn,0.05184215824441313
+REQUEST_FOR_DELETION,degree_centrality,10,Mbch331,0.05073485001006644
+REQUEST_FOR_DELETION,betweenness_centrality,1,BeneBot*,0.4896611194678469
+REQUEST_FOR_DELETION,betweenness_centrality,2,DeltaBot,0.4879169744749973
+REQUEST_FOR_DELETION,betweenness_centrality,3,Cycn,0.06194627685050266
+REQUEST_FOR_DELETION,betweenness_centrality,4,MisterSynergy,0.022055743209638864
+REQUEST_FOR_DELETION,betweenness_centrality,5,분당선M,0.019375798204521507
+REQUEST_FOR_DELETION,betweenness_centrality,6,Lymantria,0.018865584697359317
+REQUEST_FOR_DELETION,betweenness_centrality,7,VIGNERON,0.01861216038242623
+REQUEST_FOR_DELETION,betweenness_centrality,8,Jura1,0.017834293851138987
+REQUEST_FOR_DELETION,betweenness_centrality,9,Stryn,0.015605155600023615
+REQUEST_FOR_DELETION,betweenness_centrality,10,Ymblanter,0.01493785078930455
