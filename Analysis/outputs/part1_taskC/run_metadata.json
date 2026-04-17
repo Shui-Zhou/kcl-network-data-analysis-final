@@ -1,10 +1,19 @@
 {
-  "selection_seeds": {
-    "BOT_REQUESTS": 1201,
-    "PROPERTY_PROPOSAL": 1202,
-    "REQUEST_FOR_DELETION": 1203
+  "scenario_seeds": {
+    "REQUEST_FOR_DELETION": 111,
+    "PROPERTY_PROPOSAL": 222,
+    "BOT_REQUESTS": 333
   },
-  "simulation_runs": 250,
-  "simulation_steps": 6,
+  "sir_params": {
+    "REQUEST_FOR_DELETION": {"beta": 0.28, "gamma": 0.12, "steps": 8},
+    "PROPERTY_PROPOSAL":    {"beta": 0.26, "gamma": 0.11, "steps": 8},
+    "BOT_REQUESTS":         {"beta": 0.24, "gamma": 0.13, "steps": 8}
+  },
+  "sampling": "choose_infected_pair uses random.Random(seed).sample(sorted(lcc_nodes(graph)), 2)",
+  "infected_pairs_used": {
+    "REQUEST_FOR_DELETION": ["Doff", "Jr8825"],
+    "PROPERTY_PROPOSAL":    ["Ayoungprogrammer", "Faux"],
+    "BOT_REQUESTS":         ["Powerek38", "Pyb"]
+  },
   "input_graph_dir": "Analysis/outputs/part1_taskA/graphs"
 }
