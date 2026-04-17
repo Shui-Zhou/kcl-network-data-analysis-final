@@ -12,18 +12,31 @@ Final submission for the MSc Network Data Analysis coursework, King's College Lo
 
 ## Reproducing
 
-Each script is standalone and run from the project root, e.g.:
+Run scripts from the project root, in order within each Part. Later tasks read pickle graphs saved by Task A, so Task A must run first.
 
+Part 1:
 ```
 python3 Analysis/part1_taskA_network_construction.py
+python3 Analysis/part1_taskB_network_metrics.py
+python3 Analysis/part1_taskC_propagation_model.py
+```
+
+Part 2:
+```
 python3 Analysis/part2_taskA_spatial_network.py
+python3 Analysis/part2_taskB_accident_analysis.py
+python3 Analysis/part2_taskC_marathon_route.py
+```
+
+Report:
+```
 python3 report/generate_report.py
 ```
 
 Part 1 expects the three Wikidata CSVs in `Assessment/Part1_Data/datasets/` (`REQUEST_FOR_DELETION`, `PROPERTY_PROPOSAL`, `BOT_REQUESTS`). Part 2 expects the Leeds shapefiles and accident spreadsheets in `Assessment/Part2_Data/`. Raw data is not redistributed here — paths match the coursework materials.
 
-Part 2 Task A caches the OSMnx download of the Leeds drive network; first run needs internet access, subsequent runs reuse `Analysis/outputs/part2_taskA/graphs/`.
+Part 2 Task A downloads the Leeds drive network via OSMnx on first run (internet required); subsequent runs reuse the cached graph in `Analysis/outputs/part2_taskA/graphs/`.
 
 ## Dependencies
 
-Python 3.10+. Main libraries: `networkx`, `osmnx` 2.x, `spaghetti`, `libpysal`, `esda`, `pandas`, `numpy`, `matplotlib`, `pyproj`, `fpdf2`.
+Python 3.10+. See `requirements.txt`.
